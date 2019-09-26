@@ -10,7 +10,7 @@ module.exports = {
         return res.json(userlist);
     },
     async index(req, res) {
-        const userindex = await WorkUser.findOne({ email: req.params.email });
+        const userindex = await WorkUser.findOne({ email: req.params.UserEmail });
         return res.json(userindex);
     },
     async update(req, res) {
