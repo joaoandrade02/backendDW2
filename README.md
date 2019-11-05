@@ -1,23 +1,3 @@
-# API NodeJS com Express e MongoDB
-
-Instalar:
-
-- NodeJS: https://nodejs.org/en/
-- Yarn: https://yarnpkg.com/en/docs/install
-- MongoDB: https://docs.mongodb.com/manual/installation/
-
-
-Nosso back end não conterá código do front end, ou seja, nada de código HTML ou CSS. Teremos uma [API](https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces) (Interface de Programação de Aplicações) servindo como canal comunicação com o servidor.
-
-
-## Criando o projeto
-
-Assumindo que já tenha instalado o Node.js, crie um diretório para conter o seu aplicativo, e torne-o seu diretório ativo.
-
-```
-$ mkdir backend
-$ cd backend
-```
 
 Use o comando `yarn init -y` ou `npm init -y` para criar um arquivo package.json para o seu aplicativo. Nele vão são registradas, entre outras coisas, as depedências do projeto.
 
